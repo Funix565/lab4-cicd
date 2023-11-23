@@ -19,7 +19,7 @@ reports:
         files:
             - pytest_report.xml
         base-directory: pytest_reports/
-    file-format: JUNITXML
+        file-format: JUNITXML
 artifacts:
     files:
         - '**/*'
