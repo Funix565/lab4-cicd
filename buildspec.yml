@@ -7,13 +7,13 @@ phases:
             - pip3 install pytest
     pre_build:
         commands:
-            -echo pre build
+            - echo pre build
     build:
         commands:
             - python -m pytest --junitxml=pytest_reports/pytest_report.xml
     post_build:
         commands:
-            - echo post build
+            - echo post build 
 reports:
     pytest_reports:
         files:
