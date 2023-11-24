@@ -11,3 +11,10 @@ def test_multiply():
     
 def test_divide():
     assert divide(10,5) == 2
+
+def test_solve_quadratic():
+    assert solve_quadratic(2,-7,6) == (2, 1.5);
+
+def test_sq():
+    assert sq(4) == 16;
+
