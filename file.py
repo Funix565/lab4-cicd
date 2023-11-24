@@ -9,3 +9,7 @@ def multiply(x,y):
     
 def divide(x,y):
     return x/y;
+
+def solve_quadratic(a,b,c):
+    return ((-b + (b**2 - 4*a*c)**0.5) / (2*a), (-b - (b**2 - 4*a*c)**0.5) / (2*a));
+
